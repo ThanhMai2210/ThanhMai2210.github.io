@@ -24,10 +24,9 @@ i {
 .bg-img {
   height: 50vh;
   background-image: linear-gradient(rgb(34, 34, 34, 0.6), rgb(34, 34, 34, 0.6)),
-    url(../images/banner.jpg);
+    url(../images/682419.jpg);
   background-size: cover;
   color: #fff;
-  background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
 }
@@ -76,11 +75,14 @@ i {
   list-style-type: none;
   font-weight: 300;
 }
+.target {
+  background-color: #f1f3f5;
+}
 .info {
   background-color: #e9ecef;
 }
 .info-text {
-  height: 60vh;
+  height: 380px;
   line-height: 1.6;
 }
 .list-group,

@@ -14,7 +14,7 @@
         rgb(34, 34, 34, 0.6),
         rgb(34, 34, 34, 0.6)
       ),
-      url(../images/banner.jpg);
+      url(../images/682419.jpg);
     background-size: cover;
     color: #fff;
     background-position: center;
@@ -22,6 +22,10 @@
   .banner-text {
     display: flex;
     flex-direction: column;
+  }
+  .info-text {
+    height: 400px;
+    line-height: 1.6;
   }
   .bar-img {
     margin: 0;
