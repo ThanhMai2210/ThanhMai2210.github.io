@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.project {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "project-goal project-goal project-team project-timeline"
+    "project-scope project-scope project-primary project-timeline";
+  border: 5px solid blue;
+}
+.project-goal {
+  grid-area: project-goal;
+  border: 5px solid blue;
+  padding-bottom: 20px;
+}
+
+.project-team {
+  grid-area: project-team;
+  border: 5px solid blue;
+  padding-bottom: 20px;
+}
+
+.project-timeline {
+  grid-area: project-timeline;
+  border: 5px solid blue;
+  padding-bottom: 20px;
+}
+
+.project-scope {
+  grid-area: project-scope;
+  border: 5px solid blue;
+}
+
+.project-primary {
+  grid-area: project-primary;
+  border: 5px solid blue;
+}
+.project-title {
+  border-bottom: 1px solid #dee2e6;
+}
+i {
+  font-size: 30px;
+  padding-right: 20px;
+}
+.project-detail {
+  border-bottom: 1px solid #dee2e6;
+}
+.timeline-cross {
+  border-bottom: 1px dashed #74c0fc;
+}
+.scope-inout {
+  padding-right: 60px;
+}
+.project-icon {
+  height: 42px;
+  width: 42px;
+  fill: #b197fc;
+}
+.timeline-icon {
+  align-self: center;
+  margin-right: 20px;
+}

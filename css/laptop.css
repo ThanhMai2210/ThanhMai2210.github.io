@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #343a40;
+}
+.bg-grey {
+  background: #f7f7f7;
+  margin-bottom: 30px;
+}
+h3 {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+i {
+  color: #228be6;
+}
+
+/* ------------------------------------------------------------------------------------- */
+/*CSS Banner */
+
+.bg-img {
+  height: 50vh;
+  background-image: linear-gradient(rgb(34, 34, 34, 0.6), rgb(34, 34, 34, 0.6)),
+    url(../images/banner.jpg);
+  background-size: cover;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.banner-text {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+/* ------------------------------------------------------------------------------------- */
+/* CSS Nav-bar */
+
+.bar-img {
+  margin: 0 75px;
+}
+.bar-img img {
+  height: 40px;
+  width: auto;
+  transform: scale(4);
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+#nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+}
+.bar-list {
+  border-left: 1px solid #e9ecef;
+  border-right: 1px solid #e9ecef;
+}
+.bar-list:link,
+.bar-list:visited,
+.bar-list:hover,
+.bar-list:active {
+  background-color: #dee2e6;
+}
+.bar-btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #343a40;
+  font-size: 14px;
+}
+/* ------------------------------------------------------------------------------------- */
+/* CSS thông tin cá nhân */
+
+.list-group {
+  list-style-type: none;
+  font-weight: 300;
+}
+.info {
+  background-color: #e9ecef;
+}
+.info-text {
+  height: 60vh;
+  line-height: 1.6;
+}
+.list-group,
+.target-info,
+.info-icon {
+  margin-left: 30px;
+}
+.info-icon {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+/* ------------------------------------------------------------------------------------- */
+/* CSS thông tin nghề nghiệp */
+
+.personal-activity li {
+  color: #228be6;
+}
+.personal-activity h5 {
+  color: #343a40;
+}
+.info-detail {
+  margin-bottom: 40px;
+}
+.now {
+  padding: 5px 15px;
+  border-radius: 15px;
+  background-color: #228be6;
+  color: #fff;
+}
+.hobby i {
+  font-size: 30px;
+  padding: 14px 16px;
+  border: 1px solid #228be6;
+  border-radius: 50%;
+}
+.level {
+  line-height: 0;
+  margin-bottom: 20px;
+}
+.level-done {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.level-no {
+  background: #e9ecef;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* CSS Chứng chỉ - Giải thưởng */
+
+#certificate img {
+  width: 200px;
+  height: 100px;
+}
+.cross {
+  background: #ffd8a8;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.cert2 {
+  padding-left: 10px;
+  border-left: 2px solid #ffd8a8;
+}
+/* ------------------------------------------------------------------------------------- */
+/* CSS phần dự án */
+
+.project-name {
+  font-weight: 500;
+  padding: 10px;
+  border-left: 1px solid #e9ecef;
+  border-right: 1px solid #e9ecef;
+}
+.project-info {
+  border: 1px solid #e9ecef;
+  align-items: center;
+  font-size: 14px;
+}
+.project-year {
+  padding: 4px 10px;
+  border-radius: 20px;
+  background-color: #199cdb;
+  color: #fff;
+}
+td {
+  border-bottom: 1px solid #e9ecef;
+  padding: 10px;
+}
+table {
+  height: 200px;
+  border: 1px solid #e9ecef;
+  font-size: 14px;
+}
+/* ------------------------------------------------------------------------------------- */
+/* CSS phần footer */
+#footer ul {
+  height: 100px;
+  list-style-type: none;
+  gap: 10px;
+}
+#footer i {
+  font-size: 250%;
+}
+.btn-footer:link,
+.btn-footer:visited {
+  text-decoration: none;
+  color: #adb5bd;
+}
+.btn-footer:hover,
+.btn-footer:active {
+  color: #199cdb;
+}
